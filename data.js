@@ -1,3 +1,5 @@
+import bcrypt from 'bcrypt'
+
 const users = [
     {
         email: 'tadevosyanhayk07@gmail.com',
