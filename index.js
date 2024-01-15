@@ -27,6 +27,9 @@ app.use(express.static('Public'))
 app.get("/", (req,res) => {
   res.render('Login')
 })
+app.get("/portfolio", (req,res) => {
+  res.render("portfolio")
+})
 
 app.use(credentials);
 app.use(cors(corsOptions));
